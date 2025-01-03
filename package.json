@@ -1,0 +1,14 @@
+{
+  "name": "lgc_playwright",
+  "version": "1.0.0",
+  "description": "Automation Technical Assessment for Lets Get Checked using Playwright for UI Testing",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5"
+  }
+}

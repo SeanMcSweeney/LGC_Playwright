@@ -7,3 +7,4 @@ Use npm run allure:open to open test runs
 
 Screenshots are in Media/Screenshots
 Video is in Media
+Please not the video includes waits so that each step is visible

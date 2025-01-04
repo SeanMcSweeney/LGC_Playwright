@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "features/**/*.ts",
+    "step_definitions/**/*.ts",
+    "support/**/*.ts",
+    "tests/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

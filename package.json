@@ -3,12 +3,23 @@
   "version": "1.0.0",
   "description": "Automation Technical Assessment for Lets Get Checked using Playwright for UI Testing",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "cucumber-js --format allure-cucumberjs/reporter",
+    "allure:generate": "allure generate ./allure-results -o ./allure-report --clean",
+    "allure:open": "allure open ./allure-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
     "@playwright/test": "^1.49.1",
-    "@types/node": "^22.10.5"
+    "allure-commandline": "^2.32.0",
+    "allure-cucumberjs": "^3.0.7",
+    "allure-js-commons": "^3.0.7",
+    "allure-playwright": "^3.0.7",
+    "eslint": "^8.56.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.0.0"
   }
 }
